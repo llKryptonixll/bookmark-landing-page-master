@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-base {
+    @apply rounded-md text-sm font-medium;
+}
+
+.red-text-hover{
+    @apply group-hover:text-soft_red hover:text-soft_red transition-colors;
+}
+.border-transparent-bg-hover{
+    @apply border-2 border-transparent hover:bg-transparent transition-all;
+}
